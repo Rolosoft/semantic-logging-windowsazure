@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{27852A40-0319-4BD9-83D6-AFD72D80350C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3864F511-B2CD-4ABE-AE1F-1F4C9CCDB34D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rolosoft.Practices.EnterpriseLibrary.SemanticLogging.WindowsAzure", "Components\Rolosoft.Practices.EnterpriseLibrary.SemanticLogging.WindowsAzure\Rolosoft.Practices.EnterpriseLibrary.SemanticLogging.WindowsAzure.csproj", "{FC0BA5A0-C12B-4019-A0D5-6908CA0DECF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rolosoft.Practices.EnterpriseLibrary.SemanticLogging.WindowsAzure.Tests", "Tests\Rolosoft.Practices.EnterpriseLibrary.SemanticLogging.WindowsAzure.Tests\Rolosoft.Practices.EnterpriseLibrary.SemanticLogging.WindowsAzure.Tests.csproj", "{F4D2BB05-01FA-4D41-8243-64679344C12D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC0BA5A0-C12B-4019-A0D5-6908CA0DECF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0BA5A0-C12B-4019-A0D5-6908CA0DECF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0BA5A0-C12B-4019-A0D5-6908CA0DECF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0BA5A0-C12B-4019-A0D5-6908CA0DECF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D2BB05-01FA-4D41-8243-64679344C12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D2BB05-01FA-4D41-8243-64679344C12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D2BB05-01FA-4D41-8243-64679344C12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D2BB05-01FA-4D41-8243-64679344C12D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC0BA5A0-C12B-4019-A0D5-6908CA0DECF0} = {27852A40-0319-4BD9-83D6-AFD72D80350C}
+		{F4D2BB05-01FA-4D41-8243-64679344C12D} = {3864F511-B2CD-4ABE-AE1F-1F4C9CCDB34D}
+	EndGlobalSection
+EndGlobal
